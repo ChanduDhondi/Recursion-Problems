@@ -23,6 +23,6 @@ if __name__ == '__main__':
     ele = input('Enter element in the string : ')
     run = Recursion()
     if ele in str:
-        reverseString = run.firstLastOccurence(str, ele, 0)
+        run.firstLastOccurence(str, ele, 0)
     else:
          print('Element you entered is not in the string')
